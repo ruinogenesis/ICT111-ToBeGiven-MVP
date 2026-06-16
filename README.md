@@ -1,4 +1,4 @@
-# TrackStack
+# Gravity
 
 ## Course Information
 Course Code: ICT111
