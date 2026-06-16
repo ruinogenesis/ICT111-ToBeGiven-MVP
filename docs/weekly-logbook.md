@@ -18,10 +18,10 @@
 2. Getting used to GitHub's web editor and commit workflow took some practice for the whole team.
 
 ### Evidence of Work
-- GitHub repository link: https://github.com/ruinogenesis/ICT111-ToBeGiven-MVP
+- GitHub repository link: https://github.com/ruinogenesis/ICT111-Gravity-MVP
 - Screenshot: folder structure and Issues screenshots saved in /screenshots
 - File created: README.md, docs/team-profile.md, docs/idea-log.md, docs/weekly-logbook.md, docs/problem-notes.md
-- Commit link: https://github.com/ruinogenesis/ICT111-ToBeGiven-MVP/commits/main/
+- Commit link: https://github.com/ruinogenesis/ICT111-Gravity-MVP/commits/main/
 
 ### Decision Made This Week
 We will pursue a lightweight web-based tracking dashboard, with the Web3 airdrop and quest tracker as the leading candidate, and confirm the final direction after Lab 2 opportunity scanning.
