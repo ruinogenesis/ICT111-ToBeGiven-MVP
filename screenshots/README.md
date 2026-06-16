@@ -1,3 +1,4 @@
 # Screenshots <br>This folder holds visual proof of work.
-<img width="1468" height="1302" alt="image" src="https://github.com/user-attachments/assets/103dc24e-a108-4ffc-a0ab-abfff6b42370" />
-<img width="1640" height="1230" alt="image" src="https://github.com/user-attachments/assets/c081ec19-7ce6-435f-a0b4-2a35bc03db9b" />
+<img width="1377" height="650" alt="image" src="https://github.com/user-attachments/assets/c708a94a-2b69-4af8-993c-fdbe3c66a0e8" />
+<img width="1380" height="674" alt="image" src="https://github.com/user-attachments/assets/974dc62c-c64e-4c0c-ae0b-6402b68167be" />
+
