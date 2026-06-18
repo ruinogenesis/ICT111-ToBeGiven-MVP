@@ -1,42 +1,36 @@
-# Lab 02 Opportunity Scanning
+# Selected Semester Project Opportunity
 
-## Ideas Reviewed from Lab 1
-| Idea | Problem Area | Target User | Current Alternative | Initial Technology Direction |
-|---|---|---|---|---|
-| Idea 1 | Shared group expenses are hard to track and settle | Students, roommates, friend groups | Group chat, one person's spreadsheet | HTML/CSS/JS + Google Sheet |
-| Idea 2 | Students lose track of credits and prerequisites | University students | PDF curriculum sheets, asking advisors | HTML/CSS/JS + JSON curriculum data |
-| Idea 3 | Content is scattered across many platforms | Student creators, micro-influencers | Notes apps, memory, scattered sheets | HTML/CSS/JS kanban + Google Sheet |
+## Selected Project Title
+Gravity — A Peer-to-Peer Student Marketplace
 
-## Opportunity Discovery Table
-| No. | Observed Problem | Target User | Current Alternative | Possible IT Solution | Feasible Technology |
-|---|---|---|---|---|---|
-| 1 | Students moving in/out of RSU need to sell or buy used furniture, appliances, and books, but listings are buried in messy Facebook/LINE groups with no search | RSU students (movers, new students, dorm residents) | Scattered Facebook/LINE buy-sell groups, word of mouth | Student secondhand marketplace that connects buyers and sellers (no inventory, no payment handling) | HTML/CSS/JS + Google Sheet/DB for listings |
-| 2 | Students lose track of completed/remaining credits and prerequisite chains, risking delayed graduation | University students | PDF curriculum sheets, advisor meetings | Degree progress & prerequisite tracker | HTML/CSS/JS + JSON curriculum data |
-| 3 | Roommates and friend groups forget who paid shared costs and who still owes money | Students, roommates | Group-chat messages, one person's spreadsheet | Shared expense splitter | HTML/CSS/JS + Google Sheet |
-| 4 | First-year students miss assignment deadlines because reminders are scattered across LMS, chat, and email | First-year students | Manual notes, screenshots, chat reminders | Deadline reminder dashboard | HTML/CSS/JS + Google Sheet |
-| 5 | Small creators forget what they posted where and miss repurposing chances | Student creators, micro-influencers | Notes apps, memory, scattered sheets | Content planner board | HTML/CSS/JS kanban + Google Sheet |
-| 6 | Small cafes lose sales because stock is tracked manually and updated irregularly | Cafe owners | Paper notes or memory | Inventory tracking web app | Google Form + Google Sheets dashboard |
+## Target User
+Rangsit University students, in two roles:
+- **Sellers:** students who are moving out, graduating, or leaving — especially international students — who need to clear furniture, appliances, textbooks, and dorm items quickly.
+- **Buyers:** new and continuing students who want those same items cheaply instead of buying new.
 
-## Technology Feasibility Mapping
-| Idea | Prototype Type | Tools Needed | Data Needed | Difficulty | Feasible? |
-|---|---|---|---|---|---|
-| 1. Student Secondhand Marketplace | Web app (listings) | HTML/CSS/JS, Google Sheet/DB | Listings, categories, seller contact | Low / Medium | Yes |
-| 2. Degree Progress Tracker | Web app dashboard | HTML/CSS/JS, JSON curriculum file | Course list, credits, prerequisites | Medium | Yes |
-| 3. Shared Expense Splitter | Web app | HTML/CSS/JS, Google Sheet | Group members, expenses | Low | Yes |
-| 4. Deadline Reminder Dashboard | Web app | HTML/CSS/JS, Google Sheet | Course deadlines, dates | Low | Yes |
-| 5. Content Planner | Web app (kanban) | HTML/CSS/JS, Google Sheet | Content items, platforms, status | Medium | Yes |
-| 6. Cafe Inventory Tracker | Form + dashboard | Google Form, Google Sheets | Items, stock counts | Low | Yes |
+## Problem Statement
+When students move in or out of RSU, sellers and buyers currently rely on scattered Facebook and LINE buy-sell groups. Listings are buried in the feed, there is no search or category filter, items disappear quickly, and there is no easy way to find what you need or reach the right person. Sellers often end up giving items away or throwing them out, and buyers overpay for new items they could have bought used.
 
-## NUF Scoring Summary
-Full scoring is in `/data/opportunity-scoring.xlsx` (New, Useful, and Feasible scored 1-5, with Total and Rank formulas).
+## Current Alternative
+Students post in general Facebook/LINE groups, ask friends, use noticeboards, or simply leave items behind. These channels are disorganised, unsearchable, and unreliable, and they mix everything together with no structure.
 
-| Rank | Idea | Total |
-|---|---|---|
-| 1 | Student Secondhand Marketplace (**selected**) | 13 |
-| 2 | Degree Progress Tracker | 12 |
-| 3 | Shared Expense Splitter | 11 |
-| 4 | Deadline Reminder Dashboard | 10 |
-| 5 | Content Planner | 9 |
-| 6 | Cafe Inventory Tracker | 8 |
+## Proposed IT Solution
+A student-only web marketplace that **connects** buyers and sellers rather than acting as a real middleman. Sellers post items with a photo, category, condition, and price. Buyers browse, search, and filter listings. When a buyer is interested, the platform connects the two parties (for example, by revealing a contact or starting an in-app message) so they finish the deal themselves off-platform. The platform does **not** hold inventory and does **not** process payments.
 
-The Student Secondhand Marketplace scored highest because it solves a real, recurring problem for a clear user group we belong to, it is easy to validate with fellow students, and the connect-only model (no inventory and no payment processing) keeps it very feasible and free of advanced cybersecurity requirements. It is documented in detail in `/docs/selected-opportunity.md`.
+An AI assistant adds value in two simple ways:
+- A **listing helper** that turns a short description ("selling my used study desk, 1 year old, good condition") into a clean title, description, and a suggested fair price.
+- A **natural-language search** so a buyer can type "cheap desk and a fan under 1000 baht" and get matching listings.
+
+## Why This Opportunity Was Selected
+It ranked first on our NUF matrix (New 3, Useful 5, Feasible 5 = 13). It is highly useful because it solves a real, recurring problem for a user group we belong to and understand. It is very feasible because the connect-only model removes the two hardest parts of e-commerce — inventory and payments — leaving a straightforward listings web app. It scores moderately on New because general secondhand marketplaces exist, but a student-only, campus-scoped marketplace built around the move-in/move-out cycle is a clear, focused improvement over messy Facebook groups.
+
+## Why This Is Feasible Without IoT or Advanced Cybersecurity
+The MVP is entirely software-based: a browser web app (HTML/CSS/JavaScript) with a simple data store (Google Sheet or a lightweight database) for listings. There is no hardware, no sensors, and no payment processing — because money never changes hands on the platform, there is no need for payment security, fraud handling, or financial compliance. The only privacy consideration is connecting buyers and sellers, which we will handle conservatively (for example, an in-app message or a "reveal contact after both agree" step) so personal accounts are not exposed to strangers.
+
+## Possible MVP Type
+HTML/CSS/JS prototype (listings web app), with listing data stored in a Google Sheet or simple database.
+
+## Initial Validation Plan for Lab 03
+- **Who will the team ask?** RSU students who have recently moved in or out, current dorm residents, and graduating/international students.
+- **What evidence will the team collect?** How they currently buy/sell used items, what frustrates them about Facebook/LINE groups, how often they buy or sell when moving, and whether they would use a dedicated student marketplace.
+- **What question must be answered first?** Is finding and selling used items when moving a real, frequent, painful problem for RSU students — painful enough that they would switch from Facebook groups to a dedicated marketplace?
