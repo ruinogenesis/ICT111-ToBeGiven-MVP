@@ -1,6 +1,6 @@
 # Gravity
 
-## Course Information
+## Course Information .
 Course Code: ICT111
 Course Name: Introduction to Information Technology
 Instructor: Dr. Herison Surbakti
