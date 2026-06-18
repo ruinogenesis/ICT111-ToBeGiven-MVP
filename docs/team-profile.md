@@ -6,14 +6,17 @@ Gravity
 ## Team Members and Roles
 | Student ID | Name | Role | Main Responsibility |
 |---|---|---|---|
-| 6704806 | Hein Htet Aung | Product Lead + Documentation Lead | Define problem, target users, and value proposition; maintain README, logbook, and submission package |
-| 6610285 | Thiri Shoon Lae Oo | Technical Lead | Manage prototype development, repository structure, and technical feasibility |
+| 6704806 | Hein Htet Aung | Product Lead + Documentation Lead | Define problem, target users, value proposition; maintain README and logbook |
+| 6610285 | Thiri Shoon Lae Oo | UX/UI Lead + Validation Lead | Design wireframes and user flow; run customer discovery and collect evidence |
+| ID | [Teammate 2 Name] | Technical and Business Lead | Manage repository structure and prototype feasibility, business aspects |
 
 
 ## Team Skills Inventory
 | Member | Technical Skills | Design Skills | Business/Communication Skills |
 |---|---|---|---|
-| Hein Htet Aung | HTML/CSS/JS, SQL, on-chain crypto and DeFi mechanics, data analysis | Canva, dashboard layout | Presentation, content creation, multilingual communication |
+| Hein Htet Aung | HTML/CSS/JS, SQL, data analysis | dashboard layout | team cordination, technical building |
+| [Teammate 1 Name] | [e.g. JavaScript beginner, Git] | [e.g. Figma beginner] | [e.g. team coordination] |
+| [Teammate 2 Name] | [e.g. spreadsheets, basic web] | [e.g. UI layout, wireframing] | [e.g. interviewing, survey design] |
 
 ## Team Working Agreement
 1. Meeting schedule: Every week after class, plus an online check-in mid-week
