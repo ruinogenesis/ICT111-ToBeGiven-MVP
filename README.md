@@ -1,6 +1,6 @@
 # Gravity
 
-## Course Information 
+## Course Information
 Course Code: ICT111
 Course Name: Introduction to Information Technology
 Instructor: Dr. Herison Surbakti
@@ -10,26 +10,20 @@ Project Type: 14-Labs Continuous IT Startup MVP Development
 Gravity
 
 ## Team Members and Roles
-
-| Student ID | Name | Role | Responsibility |
-|---|---|---|---|
+| Name | Role | Responsibility |
+|---|---|---|
 | 6704806 | Hein Htet Aung | Product Lead + Documentation Lead | Define problem, target users, value proposition; maintain README and logbook |
-| 6610285 | Thiri Shoon Lae Oo  | Technical Lead | Manage repository structure and prototype feasibility |
-
+| 6610285 | Thiri Shoon Lae Oo | UX/UI Lead + Validation Lead | Design wireframes and user flow; run customer discovery and collect evidence |
+| ID | [Teammate 2 Name] | Technical and Business Lead | Manage repository structure and prototype feasibility, business aspects |
 
 ## Initial Problem Area
-Our team is interested in **personal tracking tools** for people who manage scattered, fast-changing information across many sources. Whether someone is following crypto airdrop tasks, checking their degree progress, or planning content across social platforms, the information lives in too many places (chats, spreadsheets, browser tabs, memory). People miss deadlines, lose track of status, and have no single clear view. We want to build a simple web tool that turns this scattered information into one organized dashboard.
+Our team is interested in **how RSU students buy and sell used items when they move in and out of university**. Students who are leaving, graduating, or moving dorms need to clear furniture, appliances, textbooks, and other items quickly, while new and continuing students want those same things cheaply. Today this happens in scattered Facebook and LINE groups where listings are buried, unsearchable, and disorganised. We want to build a simple student-only marketplace that connects buyers and sellers directly.
 
 ## Target Users
-Possible user groups affected by this problem:
-- University students tracking credits, prerequisites, and graduation progress
-- Crypto and Web3 users tracking airdrop tasks, quests, and eligibility across protocols
-- Small content creators tracking what they have posted, where, and what to repurpose next
+Rangsit University students in two roles: **sellers** who are moving out, graduating, or leaving (especially international students) and need to clear their belongings, and **buyers** who are new or continuing students looking for cheap used furniture, appliances, and textbooks. During opportunity scanning the team also considered a degree progress tracker, a shared expense splitter, and a content planner, but selected the student marketplace because the problem is real and recurring, and we belong to the user group, which makes validation easy.
 
-In Lab 2 the team will narrow to one primary user group based on validation evidence.
-
-## Initial IT Venture Direction
-A lightweight, web-based **tracking dashboard** (HTML/CSS/JavaScript front end with a simple data store) where a user logs items to track, sees their status at a glance, and gets reminders for upcoming deadlines. The leading candidate is a Web3 airdrop and quest tracker, because the team has direct domain experience in on-chain crypto mechanics, but the same dashboard pattern can be applied to the other two ideas after Lab 2 opportunity scanning.
+## Selected IT Venture Direction
+After Lab 2 opportunity scanning, our team selected **Gravity**, a **peer-to-peer student marketplace**. The target users are RSU students who need to sell or buy used items when moving in or out, and who currently rely on messy, unsearchable Facebook and LINE groups. The platform connects buyers and sellers directly — sellers post listings, buyers browse, search, and filter, and the platform then connects the two parties so they finish the deal themselves. We deliberately do **not** hold inventory or process payments, which keeps the build feasible and avoids any advanced cybersecurity. A simple AI assistant helps sellers write listings and lets buyers search in natural language. This idea scored highest on our NUF matrix (New 3, Useful 5, Feasible 5 = 13).
 
 ## Technology Possibility
 Possible technologies:
@@ -43,7 +37,7 @@ Possible technologies:
 - SaaS platform
 - Marketplace or digital platform
 
-Most likely for our MVP: a **web application + dashboard**, with a simple cloud-based data store (database or Google Sheet backend) and an optional AI-assisted feature for summarising status later in the semester.
+Most likely for our MVP: a **web application + marketplace/digital platform**, with a simple cloud-based data store (Google Sheet or a lightweight database) for listings, plus an optional AI-assisted feature for listing help and natural-language search.
 
 ## Repository Structure
 - **docs**: reports, team profile, idea log, weekly logbook, and problem notes
@@ -57,10 +51,11 @@ Most likely for our MVP: a **web application + dashboard**, with a simple cloud-
 ## Weekly Progress Log
 | Lab | Main Activity | Output | Status |
 |---|---|---|---|
-| Lab 1 | Lab setup and idea log | Repository, team profile, initial idea log, weekly logbook | In progress |
+| Lab 1 | Lab setup and idea log | Repository, team profile, initial idea log, weekly logbook | Completed |
+| Lab 2 | IT opportunity scanning | Opportunity scan, NUF scoring sheet, selected opportunity | Completed |
 
 ## Current Status
-In Lab 1 the team formed with clear roles, created this GitHub repository, and built the full required folder structure. We wrote a professional README, completed the team profile with a skills inventory and working agreement, and documented three initial IT venture ideas using the problem-user-solution format. We also created five GitHub Issues to organise early tasks and recorded our progress in the weekly venture logbook. The repository now tells a clear story of who we are, what we may build, and how we will work together.
+In Lab 2, we reviewed our three Lab 1 ideas, discovered six possible IT opportunities from real campus and small-business contexts, and mapped each one to a feasible software-only prototype path. We scored all six ideas using the NUF method (New, Useful, Feasible) in a scoring spreadsheet, and selected the student secondhand marketplace as our semester MVP because it had the highest total and combined a real, recurring problem with strong feasibility. The repository now reflects a single, clearly chosen project direction.
 
 ## Next Step
-In Lab 2 the team will run opportunity scanning, compare the three ideas against feasibility and evidence, and select one primary problem and user group to take forward as the MVP.
+In Lab 3, we will prepare customer discovery questions, identify target student respondents (recent movers, dorm residents, graduating/international students), and collect evidence to confirm that buying and selling used items when moving is a real, painful problem worth solving.
