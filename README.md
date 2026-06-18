@@ -1,6 +1,6 @@
 # Gravity
 
-## Course Information .
+## Course Information 
 Course Code: ICT111
 Course Name: Introduction to Information Technology
 Instructor: Dr. Herison Surbakti
@@ -14,6 +14,7 @@ Gravity
 | Student ID | Name | Role | Responsibility |
 |---|---|---|---|
 | 6704806 | Hein Htet Aung | Product Lead + Documentation Lead | Define problem, target users, value proposition; maintain README and logbook |
+| 6610285 | Thiri Shoon Lae Oo  | Technical Lead | Manage repository structure and prototype feasibility |
 | 6610285 | Thiri Shoon Lae Oo  | Technical Lead | Manage repository structure and prototype feasibility |
 
 
