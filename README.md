@@ -10,8 +10,8 @@ Project Type: 14-Labs Continuous IT Startup MVP Development
 Gravity
 
 ## Team Members and Roles
-| Name | Role | Responsibility |
-|---|---|---|
+| Student ID | Name | Role | Responsibility |
+|---|---|---|---|
 | 6704806 | Hein Htet Aung | Product Lead + Documentation Lead | Define problem, target users, value proposition; maintain README and logbook |
 | 6610285 | Thiri Shoon Lae Oo | UX/UI Lead + Validation Lead | Design wireframes and user flow; run customer discovery and collect evidence |
 | 6602963 | Eimyat Yadanar Mon | Technical and Business Lead | Manage repository structure and prototype feasibility, business aspects |
